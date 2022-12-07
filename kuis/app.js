@@ -4,44 +4,44 @@ function main() {
 
     var vertices = [
     // R Depan, Merah
-    -1.2, -1, 3,        0, 0, 1,      // Index: 0
-    -1.2, 1, 3,         0, 0, 1,      // Index: 1
-    -0.8, 1, 3,         0, 0, 1,      // Index: 2
-    -0.8, -1, 3,        0, 0, 1,      // Index: 3
-    -0.8, 0, 3,         0, 0, 1,      // Index: 4
-    -0.3, 1, 3,         0, 0, 1,      // Index: 5
-    -0.3, 0, 3,         0, 0, 1,      // Index: 6
-    -0.8, -0.6, 3,      0, 0, 1,      // Index: 7
-    -0.6, -1, 3,        0, 0, 1,      // Index: 8
-    -0.2, -1, 3,        0, 0, 1,      // Index: 9
+    -1.2, -1, 3,        0, 0, 1,      // 0
+    -1.2, 1, 3,         0, 0, 1,      // 1
+    -0.8, 1, 3,         0, 0, 1,      // 2
+    -0.8, -1, 3,        0, 0, 1,      // 3
+    -0.8, 0, 3,         0, 0, 1,      // 4
+    -0.3, 1, 3,         0, 0, 1,      // 5
+    -0.3, 0, 3,         0, 0, 1,      // 6
+    -0.8, -0.6, 3,      0, 0, 1,      // 7
+    -0.6, -1, 3,        0, 0, 1,      // 8
+    -0.2, -1, 3,        0, 0, 1,      // 9
 
     // R Kiri, 
-    -1.2, -1, 2.5,      0, 1, 0,      // Index: 10 
-    -1.2, 1, 2.5,       0, 1, 0,      // Index: 11
-    -0.6, -1, 2.5,      0, 1, 0,      // Index: 12
-    -0.8, -0.6, 2.5,    0, 1, 0,      // Index: 13
+    -1.2, -1, 2.5,      0, 1, 0,      // 10 
+    -1.2, 1, 2.5,       0, 1, 0,      // 11
+    -0.6, -1, 2.5,      0, 1, 0,      // 12
+    -0.8, -0.6, 2.5,    0, 1, 0,      // 13
 
     // R Atas
-    0, 1, 2.5,       0, 1, 0,      // Index: 14
+    0, 1, 2.5,       0, 1, 0,      // 14
 
     // R kanan
-    0, 0, 2.5,       0, 1, 0,      // Index: 15
-    -0.5, 0, 2.5,       0, 1, 0,      // Index: 16
-    0.1, -1, 2.5,      0, 1, 0,      // Index: 17
-    -0.8, -0.6, 2.5,    0, 1, 0,      // Index: 18
-    -0.8, -1, 2.5,      0, 1, 0,      // Index: 19
+    0, 0, 2.5,       0, 1, 0,      // 15
+    -0.5, 0, 2.5,       0, 1, 0,      // 16
+    0.1, -1, 2.5,      0, 1, 0,      // 17
+    -0.8, -0.6, 2.5,    0, 1, 0,      // 18
+    -0.8, -1, 2.5,      0, 1, 0,      // 19
 
     // R belakang
-    -1.2, -1, 2.5,      0, 1, 0,    // Index: 20
-    -1.2, 1, 2.5,       0, 1, 0,    // Index: 21
-    -0.8, 1, 2.5,       0, 1, 0,    // Index: 22
-    -0.8, -1, 2.5,      0, 1, 0,    // Index: 23
-    -0.8, 0, 2.5,       0, 1, 0,    // Index: 24
-    -0.3, 1, 2.5,       0, 1, 0,    // Index: 25
-    -0.3, 0, 2.5,       0, 1, 0,    // Index: 26
-    -0.8, -0.6, 2.5,    0, 1, 0,    // Index: 27
-    -0.6, -1, 2.5,      0, 1, 0,    // Index: 28
-    -0.2, -1, 2.5,      0, 1, 0,    // Index: 29
+    -1.2, -1, 2.5,      0, 1, 0,    // 20
+    -1.2, 1, 2.5,       0, 1, 0,    // 21
+    -0.8, 1, 2.5,       0, 1, 0,    // 22
+    -0.8, -1, 2.5,      0, 1, 0,    // 23
+    -0.8, 0, 2.5,       0, 1, 0,    // 24
+    -0.3, 1, 2.5,       0, 1, 0,    // 25
+    -0.3, 0, 2.5,       0, 1, 0,    // 26
+    -0.8, -0.6, 2.5,    0, 1, 0,    // 27
+    -0.6, -1, 2.5,      0, 1, 0,    // 28
+    -0.2, -1, 2.5,      0, 1, 0,    // 29
 
 	//2 Depan
 	1.0, 1.0, 3,	0, 1, 0, //30
@@ -65,6 +65,17 @@ function main() {
 	1.2, -0.8, 3,	0, 1, 0, //44
 	1.9, -1.0, 3,	0, 1, 0, //45
 	1.9, -0.8, 3,	0, 1, 0, //46
+
+	// Cube
+	-1, 1, 1,      0, 0, 1, //47    
+    1, 1, 1,       0, 0, 1,  // > 48
+    -1, -1, 1,     0, 0, 1,    // > 49
+    1, -1, 1,      0, 0, 1,    // > 50
+
+    -1, 1, -1,      1, 0, 1, // > 51    
+    1, 1, -1,       1, 0, 1,  // > 52
+    -1, -1, -1,     1, 0, 1,    // > 53
+    1, -1, -1,      1, 0, 1,    // > 54
 ];
 
     // Vertex shader
@@ -111,7 +122,11 @@ function main() {
     var horizontalDelta = 1.0;
     var horizontalSpeed = 0.0017;
     var scale = 0.5
-    var scaleSpeed = 0.02; 
+    var scaleSpeed = 0.02;
+	var cubeHorizontalDelta = 0.0;
+	var cubeHorizontalSpeed = 0.0;
+	var cubeZDelta = 0.0;
+	var cubeZSpeed = 0.0; 
     // Model
     uModel = gl.getUniformLocation(shaderProgram, "uModel");
 
@@ -152,7 +167,7 @@ function main() {
 
         letterR();
 		number1();
-
+		cube();
     requestAnimationFrame(render);
     }
     requestAnimationFrame(render);
@@ -261,6 +276,60 @@ function number1() {
     model = glMatrix.mat4.create();
     glMatrix.mat4.translate(
         model, model, [horizontalDelta, 0.0, 0.0]
+    );
+    gl.uniformMatrix4fv(uModel, false, model);
+    gl.uniformMatrix4fv(uView, false, view);
+    gl.uniformMatrix4fv(uProjection, false, perspective);
+    gl.drawElements(gl.TRIANGLES, indices.length, gl.UNSIGNED_SHORT, 0);
+}
+
+function cube(){
+	var indices =
+	[
+		// depan
+        47, 48, 49,  48, 49, 50,
+        
+        // belakang
+        51, 52, 53,  52, 53, 54,
+
+        // kiri
+        47, 51, 49,  51, 53, 49,
+
+        // kanan
+        48, 52, 50,  50, 52, 54,
+
+        // atas
+        47, 48, 51,  58, 51, 52,
+        
+		//bawah 
+        49, 50, 53,  50, 53, 54
+	];
+
+	var aPosition = gl.getAttribLocation(shaderProgram, "aPosition");
+    gl.vertexAttribPointer(aPosition, 3, gl.FLOAT, false,
+        6 * Float32Array.BYTES_PER_ELEMENT,
+        0);
+    gl.enableVertexAttribArray(aPosition);
+
+    var aColor = gl.getAttribLocation(shaderProgram, "aColor");
+    gl.vertexAttribPointer(aColor, 3, gl.FLOAT, false,
+        6 * Float32Array.BYTES_PER_ELEMENT,
+        3 * Float32Array.BYTES_PER_ELEMENT);
+    gl.enableVertexAttribArray(aColor);
+
+    var buffer = gl.createBuffer();
+    gl.bindBuffer(gl.ARRAY_BUFFER, buffer);
+    gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(vertices), gl.STATIC_DRAW);
+
+    var indexBuffer = gl.createBuffer();
+    gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER, indexBuffer);
+    gl.bufferData(gl.ELEMENT_ARRAY_BUFFER, new Uint16Array(indices), gl.STATIC_DRAW);
+
+    cubeHorizontalDelta += cubeHorizontalSpeed;
+    cubeZDelta += cubeZSpeed
+    model = glMatrix.mat4.create();
+    glMatrix.mat4.translate(
+        model, model, [cubeHorizontalDelta, 0.0, cubeZDelta]
     );
     gl.uniformMatrix4fv(uModel, false, model);
     gl.uniformMatrix4fv(uView, false, view);
